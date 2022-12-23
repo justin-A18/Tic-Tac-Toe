@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles..css">
+    <title>tic-tac toe</title>
+</head>
+<body>
+    <main class="container__principal">
+        <h1>Juego Tic-Tac-Toe</h1>
+        <div class="board">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="Resultados">
+            <h2>
+                Resultado: 
+            </h2>
+            <h2 id="resultado"></h2>
+            <button class="btn" id="reset">Nuevo Juego</button>
+        </div>
+        <div class="modal">
+            <div class="reglas">
+                <h2>
+                    REGLAS
+                </h2>
+                <ol>
+                    <li>Jugadores: 2</li>
+                    <li>Solo un ganador</li>
+                    <li>Un turno cada jugador</li>
+                    <li>Divetirse</li>
+                </ol>
+                <button id="cerrar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                </button>
+            </div>
+        </div>
+        <button class="info-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM12 20c-4.411 0-8-3.589-8-8s3.567-8 7.953-8C16.391 4 20 7.589 20 12s-3.589 8-8 8z"></path><path d="M11 7h2v7h-2zm0 8h2v2h-2z"></path>
+            </svg>
+        </button>
+    </main>
+<script src="./js/app,.js"></script>
+</body>
+</html>
